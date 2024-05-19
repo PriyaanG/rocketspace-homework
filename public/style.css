@@ -1,0 +1,64 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: Montserrat,sans-serif;
+  line-height: 1.5;
+}
+img,
+video {
+  height: 25%;
+  max-width: 25%;
+}
+.header {
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            align-items: left;
+            justify-content: space-between;
+  float:top;
+  font-size: 25px;
+ .logo img {
+  height:100px;
+            max-width: 100px; /* Adjust max-width for the logo */
+   float:left;
+        }
+      
+}
+
+.buttons{
+  place-items:center;
+  grid-template-columns:1fr 1fr 1fr;
+  align-content:center;
+   display: grid;
+  justify-content: center | space-between;
+  margin:20%;
+  align-items:center | space-between;
+grid-row-gap:15%;
+}
+
+.CalcBtns{
+  position:absolute;
+  right:0;
+ display:flex;
+  padding:60px 0;
+    flex-direction:column;
+  justify-content:flex-end;
+  align-items:center;
+
+  
+}
+
+/* images and videos max out at full width */
+
