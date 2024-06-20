@@ -1,6 +1,6 @@
 # Project Overview & Mission
 
-This project uses [React](https://reactjs.org/), a world renowned frontend javascript framework with [Vue](https://vuejs.org)
+This project uses [React](https://reactjs.org/), a world renowned frontend javascript framework with [Vite](https://vitejs.dev)
 
 This project aims to help students solve troubles with homework by creating a homework solving app with AI (Artificial Intelligence) capabilities.
 
