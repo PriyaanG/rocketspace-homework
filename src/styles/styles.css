@@ -41,7 +41,7 @@ video {
 }
 
 .text {
-  margin-left: 1.5%;
+  margin-left: 1.7%;
 }
 
 .buttons {
@@ -56,17 +56,19 @@ video {
 }
 
 .CalcBtns{
+  width:10%;
   position:absolute;
   right:0;
  display:flex;
   flex-direction:column;
   justify-content:flex-end;
   align-items:center;
- gap:10px;
-  margin-right:2%;
+ gap:18.2px;
+  margin-right:3%;
 }
 
 .Number-Btns{
+  width:50%;
   margin-left:2%;
   display:grid;
   grid-template-columns: 124px 124px 124px;
@@ -74,7 +76,19 @@ video {
 }
 
 .AllCalcScreenBtns{
+  position:relative;
+  width:55%;
   display:flex;
+  padding:10.5% 0;
+}
+
+.vl {
+  display:flex;
+  border-left: 3px solid grey;
+  position: absolute;
+    top: 5;
+  right:0;
+  height:448px;
   padding:10.5% 0;
 }
 
