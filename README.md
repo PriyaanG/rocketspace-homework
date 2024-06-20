@@ -24,6 +24,6 @@ This project aims to help students solve troubles with homework by creating a ho
 
 ← `src/pages/home.jsx`: The barebones UI for index.html
 
-← `src/pages/calculator.jsx`: The same thing as src/pages/home.jsx just for calculator.html
+← `src/pages/calculator.jsx`: The same thing as src/pages/home.jsx just for calculator.html with soe 
 
-← `src/pages/solvedEquation.jsx`: A react component that is imported after the initial page load. It is currently a work in progress.
+
